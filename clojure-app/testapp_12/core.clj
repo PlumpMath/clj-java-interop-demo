@@ -9,7 +9,5 @@
     (let [test-str "aaa bbb ccc"]
       (println "Test string: " test-str)
       (println "After removing 3 last chars: " (clojure.contrib.string/butlast 3 test-str)))
-
-    ;(println (clojure.string/re-quote-replacement "aaa $1 bbb"))
   )
 )

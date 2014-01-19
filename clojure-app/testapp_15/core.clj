@@ -9,7 +9,5 @@
     (let [test-str "aaa $1 bbb"]
       (println "Test string: " test-str)
       (println "After escaping replacement string: " (clojure.string/re-quote-replacement test-str)))
-
-    ;(println (clojure.string/re-quote-replacement "aaa $1 bbb"))
   )
 )

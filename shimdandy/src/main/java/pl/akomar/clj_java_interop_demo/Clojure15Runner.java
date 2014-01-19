@@ -11,8 +11,6 @@ public class Clojure15Runner {
     public Clojure15Runner() throws MalformedURLException {
         URL[] urls = {new URL("file:C:\\Users\\akomar\\clojure\\clj-java-interop-demo\\shimdandy-impl-1.0.2-SNAPSHOT.jar"),
                 new URL("file:C:\\Users\\akomar\\clojure\\clj-java-interop-demo\\clojure-1.5.1.jar"),
-//                new URL("file:C:\\Users\\akomar\\clojure\\clj-java-interop-demo\\clojure-1.2.1.jar"),
-//                new URL("file:C:\\Users\\akomar\\clojure\\clj-java-interop-demo\\clojure-contrib-1.2.0.jar"),
                 new URL("file:C:\\Users\\akomar\\clojure\\clj-java-interop-demo\\clojure-app\\")};
         ClassLoader parentClassLoader = App.class.getClassLoader();
         ClassLoader cl = new URLClassLoader(urls, parentClassLoader);
