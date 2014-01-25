@@ -9,5 +9,8 @@ public class App {
 
         Clojure15Runner runner15 = new Clojure15Runner();
         runner15.executeClojure();
+
+        runner12.executeClojure();
+        runner15.executeClojure();
     }
 }
